@@ -1,4 +1,4 @@
-package com.itheima.nio_01;
+package com.itheima.nio_02;
 
 /*
 @author YG
@@ -6,14 +6,13 @@ package com.itheima.nio_01;
 */
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * 目标：Server 接收 Client 发送的一条数据
+ * 目标：Server 可以反复接收消息，Client 可以反复发送消息
  */
 public class Server {
     public static void main(String[] args) {
@@ -28,7 +27,7 @@ public class Server {
             //4.把字节输入流包装成字符输入流，再包装成缓冲字符输入流
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             String msg;
-            if ((msg = bufferedReader.readLine()) != null) {
+            while ((msg = bufferedReader.readLine()) != null) {
                 System.out.println(msg);
             }
         } catch (Exception e) {

@@ -1,4 +1,4 @@
-package com.itheima.nio_01;
+package com.itheima.nio_02;
 
 /*
 @author YG
@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.net.Socket;
+import java.util.Scanner;
 
 /**
  * 客户端
@@ -22,7 +23,14 @@ public class Client {
         OutputStream outputStream = socket.getOutputStream();
         // （3）把字节流包装成一个打印流
         PrintStream printStream = new PrintStream(outputStream);
-        printStream.println("Hello World~~~~");
-        printStream.flush();
+
+        Scanner scanner = new Scanner(System.in);
+        while (true){
+            System.out.println("请说：");
+            String next = scanner.next();
+            printStream.println(next);
+            printStream.flush();
+        }
+
     }
 }
