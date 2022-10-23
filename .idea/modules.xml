@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BIO_demo/BIO_demo.iml" filepath="$PROJECT_DIR$/BIO_demo/BIO_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/BIO_demo_chart/BIO_demo_chart.iml" filepath="$PROJECT_DIR$/BIO_demo_chart/BIO_demo_chart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NIO_Buffer/NIO_Buffer.iml" filepath="$PROJECT_DIR$/NIO_Buffer/NIO_Buffer.iml" />
     </modules>
   </component>
 </project>
