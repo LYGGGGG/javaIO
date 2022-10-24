@@ -4,13 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>NIO_Buffer</groupId>
-    <artifactId>NIO_Buffer</artifactId>
-    <packaging>pom</packaging>
+    <groupId>NIO_Channel</groupId>
+    <artifactId>NIO_Channel</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>NIO_Channel</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

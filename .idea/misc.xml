@@ -4,7 +4,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/NIO_Buffer/pom.xml" />
+        <option value="$PROJECT_DIR$/NIO_Channel/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/NIO_Buffer/NIO_Channel/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">

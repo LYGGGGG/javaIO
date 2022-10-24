@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NIO_Buffer" />
+        <module name="NIO_Channel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="NIO_Buffer" target="1.5" />
+      <module name="NIO_Channel" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
