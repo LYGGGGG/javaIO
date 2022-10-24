@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/NIO_Buffer/pom.xml" />
         <option value="$PROJECT_DIR$/NIO_Channel/pom.xml" />
+        <option value="$PROJECT_DIR$/NIO_Selector/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

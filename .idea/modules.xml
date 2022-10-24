@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/BIO_demo_chart/BIO_demo_chart.iml" filepath="$PROJECT_DIR$/BIO_demo_chart/BIO_demo_chart.iml" />
       <module fileurl="file://$PROJECT_DIR$/NIO_Buffer/NIO_Buffer.iml" filepath="$PROJECT_DIR$/NIO_Buffer/NIO_Buffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/NIO_Channel/NIO_Channel.iml" filepath="$PROJECT_DIR$/NIO_Channel/NIO_Channel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NIO_Selector/NIO_Selector.iml" filepath="$PROJECT_DIR$/NIO_Selector/NIO_Selector.iml" />
     </modules>
   </component>
 </project>
